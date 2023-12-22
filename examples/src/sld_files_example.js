@@ -203,7 +203,7 @@ function loadAllSldFiles(sldFiles) {
  * @param {string} message - error message to display
  */
 function fatalError(message) {
-    console.error('FATAL error: ' + message);
-    alert('FATAL error: ' + message);
-    throw 'FATAL error: ' + message;
+    console.error('FATAL error: ' , error);
+    alert('FATAL error: ' , error);
+    throw 'FATAL error: ' , error;
 }
